@@ -15,7 +15,7 @@ echo "access: PERMISSION DENIED."
 read -p "> "
 echo "access: PERMISSION DENIED....and..."
 
-qlmanage -p "./nedry.gif" >& /dev/null &
+#qlmanage -p "./nedry.gif" >& /dev/null &
 
 for run in {1..42}
 do
@@ -23,11 +23,11 @@ do
     sleep .5
 done &
 
-afplay ./you-didnt-say-the-magic-word.mp3
-afplay ./you-didnt-say-the-magic-word.mp3
-afplay ./you-didnt-say-the-magic-word.mp3
-afplay ./you-didnt-say-the-magic-word.mp3
-afplay ./you-didnt-say-the-magic-word.mp3
-afplay ./you-didnt-say-the-magic-word.mp3
+#afplay ./you-didnt-say-the-magic-word.mp3
+#afplay ./you-didnt-say-the-magic-word.mp3
+#afplay ./you-didnt-say-the-magic-word.mp3
+#afplay ./you-didnt-say-the-magic-word.mp3
+#afplay ./you-didnt-say-the-magic-word.mp3
+#afplay ./you-didnt-say-the-magic-word.mp3
 
 exit
